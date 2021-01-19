@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClickDoSomething">
+    >
+
+    <LinearLayout
+        android:layout_width="189dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSpacer"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:padding="10sp"
+            android:text="Item:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTitlePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:paddingLeft="20sp"
+            android:text="Price:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etSeller"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:padding="10sp"
+            android:text="Seller:"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:text="Clear Cart" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="TextView"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:paddingTop="10sp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvSeller"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:padding="10sp"
+                android:text="TextView"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnRemove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remove from Cart" />
+
+            <Button
+                android:id="@+id/btnCheckOut"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Checkout" />
+
+            <Button
+                android:id="@+id/btnItemReceived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I have received this item" />
+
+            <!--            <Button-->
+<!--                android:id="@+id/btnContactSeller"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Contact Seller" />-->
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

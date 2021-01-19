@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CampusMarket</string>
+    <string name="CM_description">Welcome to CampusMarket, a place where college students can buy, sell, or rent anything from textbooks to tech to cars. Whether you are looking for something specific, or hoping to pass on your unused items to others and make some extra cash, CampusMarket has something for everyone.</string>
+    <string name="Login_welcome">Welcome to Campus Market</string>
+    <string name="Login_get_started">Ready to get started?</string>
+    <string name="Picture">Picture</string>
+    <string name="Sign_up">Sign Up</string>
+    <string name="Log_in">Log In</string>
+    <string name="Username">Enter your username</string>
+    <string name="Password">Enter your password</string>
+    <string name="Confirm_Password">Confirm your password</string>
+    <string name="Email">Enter your email</string>
+    <string name="welcome">Welcome, </string>
+    <string name="cont">Continue</string>
+    <string name="display_users">Display all users</string>
+    <string name="response">Response:</string>
+    <string name="select_item">Select an Item:</string>
+    <string name="result">Result:</string>
+    <string name="search_hint">hint</string>
+    <string name="app_label">search_label</string>
+    <string-array name="listItems">
+        <item>Couch</item>
+        <item>Chair</item>
+        <item>Phone</item>
+    </string-array>
+    <!--    <string name="app_name">Form Validation</string>-->
+    <string name="firstNameError">Enter Valid First Name</string>
+    <string name="lastNameError">Enter Valid Last Name</string>
+    <string name="userNameError">Enter Valid Username</string>
+    <string name="passwordError">Enter Valid Password</string>
+    <string name="universityError">Enter Valid University Name</string>
+    <string name="emailError">Enter Valid Email</string>
+    <!--    <string name="mobileError">Enter Valid Mobile Number</string>-->
+</resources>

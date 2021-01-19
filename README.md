@@ -7,14 +7,14 @@ My team members (3) and I created an Android app that represents a marketplace f
 
 ## Main Features
 
-1. Login / Register (password has to be 8 chrarcter long with at least one upper case letter and one number )
-2 .View Profile
-3 .Make a new post of an item with its image
-4. Edit / delete Post
-5.View dashboard
-6. Direct Messaging to contact the seller with a notfications feature
-7. Shopping Cart 
-8. Checkout 
+1. Login / Register (password has to be 8 chrarcter long with at least one upper case letter and one number) </br>
+2.  View Profile </br>
+3.  Make a new post of an item with its image </br>
+4. Edit / delete Post </br>
+5.  View dashboard </br>
+6.  Direct Messaging to contact the seller with a notfications feature </br>
+7. Shopping Cart </br>
+8. Checkout </br>
 
 
 
